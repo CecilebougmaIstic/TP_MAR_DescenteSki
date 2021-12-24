@@ -37,8 +37,10 @@
   </PropertyGroup>
   <ItemGroup>
      <Compile Include="Assets/NavigationCamera.cs" />
-     <Compile Include="Assets/Ressources/Water/Water/Scripts/Water.cs" />
      <Compile Include="Assets/Scenes/Scripts/Skieur_Descente.cs" />
+     <Compile Include="Assets/Ressources/Water/Water/Scripts/Water.cs" />
+     <Compile Include="Assets/Scenes/Scripts/CameraDuJoueur.cs" />
+     <Compile Include="Assets/Scenes/Scripts/mouvement.cs" />
      <None Include="Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/ThirdPartyNotices.txt" />
      <None Include="Assets/Ressources/Water/Water/Shaders/FXWaterPro.shader" />
     <Reference Include="UnityEngine">
