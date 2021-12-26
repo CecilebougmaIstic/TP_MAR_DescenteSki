@@ -73,6 +73,7 @@ public class mouvement : MonoBehaviour
         if (other.tag == "endPoint")
         {
             _isStarted = false;
+            Time.timeScale = 0f;
             Debug.Log("game ended!");
 
         }
